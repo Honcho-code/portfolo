@@ -3,11 +3,11 @@ import ProjectCard from './ProjectCard';
 
 const Work = () => {
     const works = [
-        {
-          imgSrc: '/images/project-1.jpg',
-          title: 'Real estate website',
+      {
+        imgSrc: '/images/project-7.jpg',
+          title: 'Comfort estate website',
           tags: ['Design', 'MVC', 'Development'],
-          projectLink: 'https://home-estate-gamma.vercel.app/',
+          projectLink: 'https://comfort-home-ashy.vercel.app/',
           githubLink: 'https://github.com/Honcho-code/Home-estate'
         },
         {
@@ -16,6 +16,13 @@ const Work = () => {
           tags: ['Development', 'SPA'],
           projectLink: 'https://bank-app-beryl.vercel.app',
           githubLink: 'https://github.com/Honcho-code/Bank-app'
+        },
+        {
+          imgSrc: '/images/project-1.jpg',
+          title: 'Real estate website',
+          tags: ['Design', 'MVC', 'Development'],
+          projectLink: 'https://home-estate-gamma.vercel.app/',
+          githubLink: 'https://github.com/Honcho-code/Home-estate'
         },
         {
           imgSrc: '/images/project-3.jpg',
