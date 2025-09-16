@@ -18,6 +18,20 @@ const Work = () => {
           githubLink: 'https://github.com/Honcho-code/Bank-app'
         },
         {
+          imgSrc: '/images/MovieBing.jpg',
+          title: 'MovieBing (Movie research webapp)',
+          tags: ['Development', 'API', "Authentication"],
+          projectLink: 'https://moviebing-three.vercel.app',
+          githubLink: 'https://github.com/Honcho-code/moviebing'
+        },
+        {
+          imgSrc: '/images/Tconnect.jpg',
+          title: 'Tech-connect(Social media app)',
+          tags: ['Development', 'Firebase', "Authentication"],
+          projectLink: 'https://tech-connect-eta.vercel.app/',
+          githubLink: 'https://github.com/Honcho-code/tech-connect'
+        },
+        {
           imgSrc: '/images/project-1.jpg',
           title: 'Real estate website',
           tags: ['Design', 'MVC', 'Development'],
