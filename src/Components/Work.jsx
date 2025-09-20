@@ -4,6 +4,13 @@ import ProjectCard from './ProjectCard';
 const Work = () => {
     const works = [
       {
+          imgSrc: '/images/Gostream.jpg',
+          title: 'Go stream(Full stack music streaming webApp)',
+          tags: ['Web-design', 'Development', "api", "Auth"],
+          projectLink: 'https://go-stream-livid.vercel.app/',
+          githubLink: 'https://github.com/Honcho-code/Spotify-clone'
+        },
+      {
         imgSrc: '/images/project-7.jpg',
           title: 'Comfort estate website',
           tags: ['Design', 'MVC', 'Development'],
@@ -45,13 +52,7 @@ const Work = () => {
           projectLink: 'https://best-buy-lemon.vercel.app/',
           githubLink: 'https://github.com/Honcho-code/Best-buy'
         },
-        {
-          imgSrc: '/images/project-4.jpg',
-          title: 'Fullstack music player',
-          tags: ['Web-design', 'Development'],
-          projectLink: 'https://spotify-clone-theta-five.vercel.app/',
-          githubLink: 'https://github.com/Honcho-code/Spotify-clone'
-        },
+        
         {
           imgSrc: '/images/project-5.jpg',
           title: 'Portfolio website',
