@@ -4,25 +4,18 @@ import ProjectCard from './ProjectCard';
 const Work = () => {
     const works = [
       {
+          imgSrc: '/images/quoteme.png',
+          title: 'QUOTEME(Full stack web app to design amazing Quote art)',
+          tags: ['Web-design', 'Development', "ui/ux"],
+          projectLink: 'https://qouteme.vercel.app/',
+          githubLink: 'https://github.com/Honcho-code/Spotify-clone'
+        },
+      {
           imgSrc: '/images/Gostream.jpg',
           title: 'Go stream(Full stack music streaming webApp)',
           tags: ['Web-design', 'Development', "api", "Auth"],
           projectLink: 'https://go-stream-livid.vercel.app/',
           githubLink: 'https://github.com/Honcho-code/Spotify-clone'
-        },
-      {
-        imgSrc: '/images/project-7.jpg',
-          title: 'Comfort estate website',
-          tags: ['Design', 'MVC', 'Development'],
-          projectLink: 'https://comfort-home-ashy.vercel.app/',
-          githubLink: 'https://github.com/Honcho-code/Home-estate'
-        },
-        {
-          imgSrc: '/images/project-2.jpg',
-          title: 'Fullstack bank app',
-          tags: ['Development', 'SPA'],
-          projectLink: 'https://bank-app-beryl.vercel.app',
-          githubLink: 'https://github.com/Honcho-code/Bank-app'
         },
         {
           imgSrc: '/images/MovieBing.jpg',
@@ -38,6 +31,21 @@ const Work = () => {
           projectLink: 'https://tech-connect-eta.vercel.app/',
           githubLink: 'https://github.com/Honcho-code/tech-connect'
         },
+      {
+        imgSrc: '/images/project-7.jpg',
+          title: 'Comfort estate website',
+          tags: ['Design', 'MVC', 'Development'],
+          projectLink: 'https://comfort-home-ashy.vercel.app/',
+          githubLink: 'https://github.com/Honcho-code/Home-estate'
+        },
+        {
+          imgSrc: '/images/project-2.jpg',
+          title: 'Fullstack bank app',
+          tags: ['Development', 'SPA'],
+          projectLink: 'https://bank-app-beryl.vercel.app',
+          githubLink: 'https://github.com/Honcho-code/Bank-app'
+        },
+        
         {
           imgSrc: '/images/project-1.jpg',
           title: 'Real estate website',
