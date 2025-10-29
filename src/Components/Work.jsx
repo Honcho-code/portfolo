@@ -11,7 +11,7 @@ const Work = () => {
           githubLink: 'https://github.com/Honcho-code/Spotify-clone'
         },
       {
-          imgSrc: '/images/Ragge.png',
+          imgSrc: '/images/Ragge.jpg',
           title: 'RaggaeMen(Webapp for men hairstyle inspiration)',
           tags: ['Web-design', 'Development', "ui/ux"],
           projectLink: 'https://ragge-men.vercel.app/',
