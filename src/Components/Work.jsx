@@ -11,6 +11,13 @@ const Work = () => {
           githubLink: 'https://github.com/Honcho-code/Spotify-clone'
         },
       {
+          imgSrc: '/images/Ragge.png',
+          title: 'RaggaeMen(Webapp for men hairstyle inspiration)',
+          tags: ['Web-design', 'Development', "ui/ux"],
+          projectLink: 'https://ragge-men.vercel.app/',
+          githubLink: 'https://github.com/Honcho-code/Spotify-clone'
+        },
+      {
           imgSrc: '/images/Gostream.jpg',
           title: 'Go stream(Full stack music streaming webApp)',
           tags: ['Web-design', 'Development', "api", "Auth"],
