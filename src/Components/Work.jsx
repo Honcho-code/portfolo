@@ -4,6 +4,13 @@ import ProjectCard from './ProjectCard';
 const Work = () => {
     const works = [
       {
+          imgSrc: '/images/Removebg.jpg',
+          title: 'Remove.bg(Full stack web app to Remove background of image and dowwnload)',
+          tags: ['Web-design', 'Development', "ui/ux", "Api"],
+          projectLink: 'https://removebg-gold.vercel.app/',
+          githubLink: 'https://github.com/Honcho-code/Spotify-clone'
+        },
+      {
           imgSrc: '/images/quoteme.png',
           title: 'QUOTEME(Full stack web app to design amazing Quote art)',
           tags: ['Web-design', 'Development', "ui/ux"],
