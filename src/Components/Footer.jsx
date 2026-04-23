@@ -87,7 +87,7 @@ const Footer = () => {
                     <img src="./images/logo.svg" alt="logo" width={40} height={40} />
                 </a>
                 <p className="text-zinc-500 text-sm">
-                    &copy; 2024 <span className="text-zinc-200">RaphealClinton</span>
+                    &copy; {new Date().getFullYear()} <span className="text-zinc-200">RaphealClinton</span>
                 </p>
             </div>
         </div>

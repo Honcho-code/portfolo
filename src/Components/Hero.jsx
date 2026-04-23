@@ -23,9 +23,14 @@ const Hero = () => {
                         Available for work
                     </div>
                 </div>
-                <h2 className="headline-1 max-w-[15ch] sm:max-w-[20ch] lg:max-w-[15ch] mt-5 mb-8 lg:mb-10">
+                <div className='mt-5 mb-8 lg:mb-10'>
+                    <h2 className="headline-1 max-w-[15ch] sm:max-w-[20ch] lg:max-w-[15ch]">
                     Building Scalable Modern Websites for the Future
                 </h2>
+                <p className="text-lg text-zinc-400 mt-5">
+                    Frontend Developer & UI Designer | Building beautiful, fast websites for restaurants & real estate businesses in Nigeria
+                </p>
+                </div>
 
                 <div className="flex items-center gap-3">
                     <ButtonPrimary label="Download CV" icon="download" href="./images/Rapheal clinton.pdf" />

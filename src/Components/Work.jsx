@@ -6,6 +6,7 @@ const Work = () => {
       {
           imgSrc: '/images/amber.png',
           title: 'Ember & Oak Restuarant service',
+          subTitle: 'Ember & Oak is a restaurant service web application. It offers a seamless dining experience, allowing users to explore menus, make reservations, and place orders online. ',
           tags: ['Web-design', 'Development', "ui/ux"],
           projectLink: 'https://ember-oak-snowy.vercel.app/',
         },
@@ -89,8 +90,8 @@ const Work = () => {
               My portfolio highlights
             </h2>
             <div className="grid gap-x-4 gap-y-5 grid-cols-[repeat(auto-fill,_minmax(280px,_1fr))]">
-              {works.map(({ imgSrc, title, tags, projectLink, githubLink },key)=>(
-                <ProjectCard key={key} imgSrc={imgSrc} title={title} tags={tags} projectLink={projectLink} githubLink={githubLink} classes="reveal-up"/>
+              {works.map(({ imgSrc, title, tags, projectLink, githubLink, subTitle },key)=>(
+                <ProjectCard key={key} imgSrc={imgSrc} title={title} tags={tags} subTitle={subTitle} projectLink={projectLink} githubLink={githubLink} classes="reveal-up"/>
               ))}
             </div>
           </div>
