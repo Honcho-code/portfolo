@@ -4,6 +4,12 @@ import ProjectCard from './ProjectCard';
 const Work = () => {
     const works = [
       {
+          imgSrc: '/images/amber.png',
+          title: 'Ember & Oak Restuarant service',
+          tags: ['Web-design', 'Development', "ui/ux"],
+          projectLink: 'https://ember-oak-snowy.vercel.app/',
+        },
+      {
           imgSrc: '/images/Removebg.jpg',
           title: 'Remove.bg(Full stack web app to Remove background of image and dowwnload)',
           tags: ['Web-design', 'Development', "ui/ux", "Api"],
@@ -15,13 +21,6 @@ const Work = () => {
           title: 'QUOTEME(Full stack web app to design amazing Quote art)',
           tags: ['Web-design', 'Development', "ui/ux"],
           projectLink: 'https://qouteme.vercel.app/',
-          githubLink: 'https://github.com/Honcho-code/Spotify-clone'
-        },
-      {
-          imgSrc: '/images/Ragge.jpg',
-          title: 'RaggaeMen(Webapp for men hairstyle inspiration)',
-          tags: ['Web-design', 'Development', "ui/ux"],
-          projectLink: 'https://ragge-men.vercel.app/',
           githubLink: 'https://github.com/Honcho-code/Spotify-clone'
         },
       {
