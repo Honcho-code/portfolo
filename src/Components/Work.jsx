@@ -6,9 +6,16 @@ const Work = () => {
       {
           imgSrc: '/images/amber.png',
           title: 'Ember & Oak Restuarant service',
-          subTitle: 'Ember & Oak is a restaurant service web application. It offers a seamless dining experience, allowing users to explore menus, make reservations, and place orders online. ',
-          tags: ['Web-design', 'Development', "ui/ux"],
+          subTitle: 'Ember & Oak is a restaurant service web application. It offers a seamless dining experience, allowing users to explore menus, make reservations, and place orders online. built with react, tailwind css',
+          tags: ['Web-design', 'Development', "ui/ux", "Resturant", ],
           projectLink: 'https://ember-oak-snowy.vercel.app/',
+        },
+        {
+          imgSrc: '/images/meridian.png',
+          title: 'Meridian Estate',
+          subTitle: "Meridian Estates is a real estate web application for a Lagos-based property agency. It allows users to explore premium property listings, filter by type and location, save favourites, and submit enquiries — all designed to turn visitors into qualified leads.",
+          tags: ['Web-design', 'Development', "Real estate",],
+          projectLink: 'https://meridian-estates-gamma.vercel.app/',
         },
       {
           imgSrc: '/images/Removebg.jpg',
@@ -73,14 +80,6 @@ const Work = () => {
           tags: ['Development', 'API', 'eCommerce', 'Design'],
           projectLink: 'https://best-buy-lemon.vercel.app/',
           githubLink: 'https://github.com/Honcho-code/Best-buy'
-        },
-        
-        {
-          imgSrc: '/images/project-5.jpg',
-          title: 'Portfolio website',
-          tags: ['Web-design', 'Development'],
-          projectLink: 'https://rapheal-clinton.vercel.app/',
-          githubLink: 'https://github.com/Honcho-code/Spotify-clone'
         },
       ];
       return (
