@@ -19,7 +19,8 @@ const Work = () => {
         },
       {
           imgSrc: '/images/Removebg.jpg',
-          title: 'Remove.bg(Full stack web app to Remove background of image and dowwnload)',
+          title: 'Remove.bg',
+          subTitle: "Remove.bg is a web application that allows users to remove backgrounds from images quickly and easily. Built with React and Tailwind CSS, it offers a user-friendly interface and seamless functionality.",
           tags: ['Web-design', 'Development', "ui/ux", "Api"],
           projectLink: 'https://removebg-gold.vercel.app/',
           githubLink: 'https://github.com/Honcho-code/Spotify-clone'
