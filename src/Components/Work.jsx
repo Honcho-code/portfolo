@@ -52,13 +52,6 @@ const Work = () => {
           projectLink: 'https://tech-connect-eta.vercel.app/',
           githubLink: 'https://github.com/Honcho-code/tech-connect'
         },
-      {
-        imgSrc: '/images/project-7.jpg',
-          title: 'Comfort estate website',
-          tags: ['Design', 'MVC', 'Development'],
-          projectLink: 'https://comfort-home-ashy.vercel.app/',
-          githubLink: 'https://github.com/Honcho-code/Home-estate'
-        },
         {
           imgSrc: '/images/project-2.jpg',
           title: 'Fullstack bank app',
@@ -73,13 +66,6 @@ const Work = () => {
           tags: ['Design', 'MVC', 'Development'],
           projectLink: 'https://home-estate-gamma.vercel.app/',
           githubLink: 'https://github.com/Honcho-code/Home-estate'
-        },
-        {
-          imgSrc: '/images/project-3.jpg',
-          title: 'eCommerce website',
-          tags: ['Development', 'API', 'eCommerce', 'Design'],
-          projectLink: 'https://best-buy-lemon.vercel.app/',
-          githubLink: 'https://github.com/Honcho-code/Best-buy'
         },
       ];
       return (
