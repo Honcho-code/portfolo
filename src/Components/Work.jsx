@@ -17,6 +17,13 @@ const Work = () => {
           tags: ['Web-design', 'Development', "Real estate",],
           projectLink: 'https://meridian-estates-gamma.vercel.app/',
         },
+        {
+          imgSrc: '/images/soto.png',
+          title: 'SOTO Resturant service',
+          subTitle: "SOTO resturant is a restaurant service web application. It offers a seamless dining experience, allowing users to explore menus, make reservations, and place orders online. built with react, tailwind css",
+          tags: ['Web-design', 'Development', "ui/ux", "Resturant", ],
+          projectLink: 'https://soto-sable.vercel.app/',
+        },
       {
           imgSrc: '/images/Removebg.jpg',
           title: 'Remove.bg',
