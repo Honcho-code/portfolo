@@ -25,7 +25,7 @@ const ProjectCard = ({
           <h3 className="title-1 mb-3">{title}</h3>
 
           <p className="text-sm text-zinc-300 font-light">
-            {(subTitle || "").length < 50 ? subTitle : subTitle.slice(0, 200)}
+            {(subTitle || "").length < 50 ? subTitle : subTitle.slice(0, 300)}
           </p>
           <div className="flex items-center gap-2 mt-5">
             <div className="flex flex-wrap items-center gap-2">

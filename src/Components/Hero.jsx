@@ -23,17 +23,17 @@ const Hero = () => {
                         Available for work
                     </div>
                 </div>
-                <div className='mt-5 mb-8 lg:mb-10'>
+                <div className='mt-5 mb-8 lg:mb-10 border-l-2 md:border-l-4  border-red-500 pl-5'>
                     <h2 className="headline-1 max-w-[15ch] sm:max-w-[20ch] lg:max-w-[15ch]">
                     Building Scalable Modern Websites for the Future
                 </h2>
                 <p className="text-lg text-zinc-400 mt-5">
-                    Frontend Developer & UI Designer | Building beautiful, fast websites for restaurants & real estate businesses in Nigeria
+                    Frontend engineer with a UI/UX design background and hands-on experience building and shipping production web applications.
                 </p>
                 </div>
 
                 <div className="flex items-center gap-3">
-                    <ButtonPrimary label="Download CV" icon="download" href="./images/Rapheal clinton.pdf" />
+                    <ButtonPrimary label="Download CV" icon="download" href="./images/RaphealCV.pdf" />
 
                     <ButtonOutline href="#about" label="Scroll down" icon="arrow_downward"/>
                 </div>
@@ -41,7 +41,7 @@ const Hero = () => {
 
             <div className="hidden lg:block">
                 <figure className='w-full max-w-[480px] ml-auto bg-gradient-to-t from-red-600 via-25% via-red-400/40 to-65% rounded-[60px] overflow-hidden'>
-                    <img src="./images/profile.png" width={656}height={800} alt="Rapheal CLinton" className='w-full'/>
+                    <img src="./images/mypic.jpg" width={656}height={800} alt="Rapheal CLinton" className='w-full'/>
                 </figure>
             </div>
         </div>

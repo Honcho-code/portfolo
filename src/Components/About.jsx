@@ -8,7 +8,7 @@ const About = () => {
     },
     {
       label: "Years of experience",
-      number: 6,
+      number: 5,
     },
   ];
   return (
@@ -16,17 +16,17 @@ const About = () => {
       <div className="container">
         <div className="bg-zinc-800/50 p-7 rounded-2xl md-p-12 reveal-up">
           <p className="text-zinc-300 mb-4 md:mb-8 md:text-xl md:max-w-[68ch]">
-            Most businesses in Nigeria have a website. Very few have a good one.
-            I'm Rapheal — a Frontend Developer and UI Designer based in Nigeria
-            with 4+ years of experience turning ideas into fast, beautiful web
-            products that actually work for your business. My background is a
-            bit different from most developers. I started in graphics design,
-            moved into UI/UX, and then into frontend development. That means I
-            don't just build what you describe — I think about how it looks, how
-            users move through it, and how it makes your brand feel. I
-            specialise in working with restaurants and real estate businesses —
-            two industries where first impressions online directly translate to
-            real customers and bookings.
+            Frontend engineer with a UI/UX design background and hands-on
+            experience building and shipping production web applications.
+            Skilled in React, Next.js, JavaScript, TypeScript, Tailwind CSS, API
+            integration, authentication, databases, Git, and collaborative
+            software development. Experienced in translating product
+            requirements and Figma designs into working interfaces, debugging
+            implementation issues, and making practical engineering decisions in
+            small team environments. Strong interest in technical AI evaluation,
+            including code review, software engineering reasoning, debugging,
+            and evaluating the quality and correctness of AI-generated
+            solutions.
           </p>
 
           <div className="flex flex-wrap items-center gap-4 md:gap-7">
